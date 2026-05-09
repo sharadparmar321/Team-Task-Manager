@@ -6,4 +6,14 @@ export default defineConfig({
   server: {
     port: 5173,
   },
+  preview: {
+    port: 3000,
+    host: '0.0.0.0',
+    allowedHosts: [
+      'localhost',
+      '127.0.0.1',
+      '*.up.railway.app',
+      'frontend-production-57b4.up.railway.app',
+    ],
+  },
 });
