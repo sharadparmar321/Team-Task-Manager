@@ -1,0 +1,16 @@
+{
+  "name": "team-task-manager",
+  "version": "1.0.0",
+  "description": "Full-stack task management application",
+  "private": true,
+  "type": "commonjs",
+  "workspaces": [
+    "Backend",
+    "Frontend"
+  ],
+  "scripts": {
+    "dev": "npm run dev --workspace=Backend & npm run dev --workspace=Frontend",
+    "build": "npm run build --workspace=Frontend && npm run db:generate --workspace=Backend",
+    "start": "npm start --workspace=Backend"
+  }
+}
