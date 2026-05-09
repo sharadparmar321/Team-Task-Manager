@@ -15,5 +15,4 @@ export default defineConfig({
       '*.up.railway.app',
     ],
   },
-});
-});
+});
