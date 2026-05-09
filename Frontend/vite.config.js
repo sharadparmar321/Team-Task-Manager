@@ -7,7 +7,7 @@ export default defineConfig({
     port: 5173,
   },
   preview: {
-    port: 5173,
+    port: 3000,
     host: '0.0.0.0',
     allowedHosts: [
       'localhost',
